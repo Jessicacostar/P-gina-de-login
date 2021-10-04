@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif
+            background-image: linear-gradient(45deg, rgb(248, 248, 248), rgb(255, 255, 255));
+        }
+        div{
+            background-color: rgba(238, 238, 238, 0.9);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: rgb(8, 107, 124);
+        } 
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+        button{
+            background-color: rgb(13, 152, 187);
+            border: none;
+            padding: 8px;
+            width: 100%;
+            border-radius: 0px;
+            color: white;
+            font-size: 15px;
+            
+        }
+        button:hover{
+            background-color: rgb(202, 202, 202);
+            cursor: pointer;
+        
+        
+        }
+       
+    </style>
+</head>
+<body>
+    <div>
+       <fieldset> 
+           <form method="POST" action="codigo.php">
+
+       <center> <h1>Login</h1> <hr> </center>
+        <input type="email" placeholder="Email" name="email"> 
+        <br><br>
+        <input type="password" placeholder="Senha" name="senha"> 
+        <br><br>
+          <INPUT TYPE="checkbox" NAME="logado" VALUE="logado"> Manter-me logado
+            <br><br>
+
+        <button>Logar</button> 
+        
+     </form>
+      </fieldset>
+      
+    <center>  <a href=""> Ainda não é inscrito? <strong> Cadastre-se! </strong> </a> </center>
+       
+          
+    </div>
+    <script language=JavaScript> alert('Seja bem vindo(a)!'); </script>;
+
+</body>
+</html>
